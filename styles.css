@@ -1,0 +1,139 @@
+body,
+h1,
+h4,
+p {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  border: 1px solid rgb(231, 228, 228);
+}
+h1 {
+  color: #885df1;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 24px;
+}
+.cities {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  justify-content: space-evenly;
+  margin-left: 70px;
+  color: #3b63f5;
+}
+.city {
+  margin-right: 50px;
+}
+.temp-change {
+  color: #3b63f5;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 200ms all ease;
+}
+.temp-change:hover {
+  color: #885df1;
+}
+.header,
+.main,
+.footer {
+  display: flex;
+  width: 1100px;
+  height: 150px;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
+.button {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 8px;
+  border: 1px solid rgb(217, 214, 214);
+  border-radius: 18px;
+  font-size: 14px;
+  width: 400px;
+  height: 48px;
+  align-items: center;
+  background-color: white;
+}
+#current {
+  display: block;
+  text-decoration: none;
+  padding: 8px 12px;
+  border: 1px solid rgb(217, 214, 214);
+  border-radius: 8px;
+  font-size: 14px;
+  align-items: center;
+  background-color: rgb(230, 93, 209);
+  transition: 200ms all ease;
+}
+#current:hover {
+  cursor: pointer;
+}
+.glass {
+  transition: all 200ms ease;
+}
+.glass:hover {
+  cursor: pointer;
+}
+.icon-city {
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid rgb(217, 214, 214);
+  width: 180px;
+  height: 48px;
+}
+.sun_ {
+  margin-right: 10px;
+}
+.fa-sun {
+  color: #ffff00e3;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+.current {
+  font-size: 14px;
+  line-height: 28px;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  width: 1000px;
+  height: 90px;
+  background-color: rgba(0, 166, 255, 0.297);
+  margin: 0 auto;
+}
+.footer {
+  height: 200px;
+  width: 1200px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb(26, 25, 25);
+}
+.card {
+  margin-bottom: 10px;
+  width: 50px;
+}
+.day {
+  margin-bottom: 10px;
+}
+.card .fa-cloud {
+  margin-bottom: 10px;
+}
+.fa-cloud {
+  color: rgb(8, 8, 126);
+  font-size: 20px;
+}
